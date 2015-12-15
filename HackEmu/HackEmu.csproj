@@ -89,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon2 32x32.ico" />
+    <None Include="Resources\BlueArrowRight.gif" />
     <None Include="Resources\Checked2.bmp" />
     <None Include="Resources\stop 16x16.bmp" />
     <None Include="Resources\ok.bmp" />

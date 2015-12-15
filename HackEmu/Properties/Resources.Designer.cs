@@ -63,6 +63,16 @@ namespace HackEmu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BlueArrowRight {
+            get {
+                object obj = ResourceManager.GetObject("BlueArrowRight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Checked2 {
             get {
                 object obj = ResourceManager.GetObject("Checked2", resourceCulture);
