@@ -8,8 +8,9 @@ using System.Windows.Forms;
 
 namespace HackEmu {
     public partial class FormPassReq : Form {
-        public FormPassReq() {
+        public FormPassReq(string Pass) {
             InitializeComponent();
+            textBoxPass.Text = Pass;
         }
 
         public string EnteredPass {
