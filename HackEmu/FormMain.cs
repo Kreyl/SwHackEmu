@@ -62,6 +62,7 @@ namespace HackEmu {
                             Decimal.TryParse(fMaster.textBoxPeriodMax.Text, out ISettings.PeriodMax);
                             Decimal.TryParse(fMaster.textBoxPeriodMin.Text, out ISettings.PeriodMin);
                             ISettings.PassToFind = fMaster.textBoxPass.Text;
+                            ISettings.Save("settings.cfg");
                         }
                     }
                 }
@@ -70,7 +71,6 @@ namespace HackEmu {
                     break;
                 }
             } // while
-
             RunNewTask();
         } // Form1_Shown
 
